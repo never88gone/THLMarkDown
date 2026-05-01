@@ -1,31 +1,31 @@
 # 糖葫芦MarkDown
 
-![糖葫芦MarkDown logo](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/icon_256x256.png)
+![THLMarkDown logo](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/icon_256x256.png)
 
-你好呀！我是 **糖葫芦MarkDown**，一款 macOS 平台的开源 Markdown 编辑器。
+欢迎使用 **糖葫芦MarkDown**，一款专为 macOS 平台打造的专业 Markdown 编辑器。
 
-请允许我为您做一个简短的自我介绍。
+本帮助文档将引导您了解编辑器的各项功能和基础用法。
 
 
 
-## Markdown 与我
+## 关于 Markdown
 
 **Markdown** 是一种轻量级标记语言，由 John Gruber 创立，旨在提供一种易读易写的无格式文本格式。原始的 Markdown 语法规范可以在 [这里](https://daringfireball.net/projects/markdown/syntax) 查阅。
 
-**糖葫芦MarkDown** 是一款旨在让 Markdown 编写变得更加简单的文档编辑器。我可以在您编辑时将 Markdown 内容实时渲染为 HTML，并在右侧预览窗格中完美呈现。
+**糖葫芦MarkDown** 提供直观的 Markdown 编辑体验。它能在您编辑时实时将 Markdown 内容渲染为 HTML，并在右侧预览窗格中即时呈现。
 
-![糖葫芦MarkDown Screenshot](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/screenshot.png)
+![THLMarkDown Screenshot](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/screenshot.png)
 
-除了完全支持标准 Markdown 的所有语法，我能做的还有很多！在我的 [**Markdown** 偏好设置面板](#markdown-pane) 中，您可以轻松切换许多流行但不属于标准语法的扩展功能标记。
+除了完全支持标准 Markdown 语法外，应用还提供了丰富的扩展功能。在 [**Markdown** 偏好设置面板](#markdown-pane) 中，您可以轻松开启或关闭各种高级语法扩展。
 
-您也可以在大本营——[**渲染 (Rendering)** 偏好设置面板](#rendering-pane) 中，自定义额外的 HTML 渲染选项。
+您也可以在 [**渲染 (Rendering)** 偏好设置面板](#rendering-pane) 中，自定义 HTML 渲染的样式和选项。
 
-在 [**编辑器 (Editor)** 偏好设置面板](#editor-pane) 中，您可以根据自己的喜好对编辑窗口进行自定义配置。
+在 [**编辑器 (Editor)** 偏好设置面板](#editor-pane) 中，您可以根据个人习惯对编辑界面进行个性化配置。
 
-而关于我（这款应用）的各类运行行为，都能在 [**一般 (General)** 偏好设置面板](#general-pane) 中进行设定。
+关于应用程序的全局行为，可以在 [**通用 (General)** 偏好设置面板](#general-pane) 中进行设定。
 
 ## 基础语法
-在向您展示我的各种高级扩展语法和能力之前，我将先为您介绍 Markdown 的必备基础。如果您早已是一位 Markdown 熟手，并希望直接了解我更强大的功能，建议您跳过此章节直奔 [**Markdown** 偏好设置面板](#markdown-pane)。现在，让我们直接开始吧。  
+在深入了解高级扩展之前，本节将为您介绍 Markdown 的必备基础。如果您熟悉 Markdown 语法，可以跳过此章节，直接查看 [**Markdown** 偏好设置面板](#markdown-pane)。  
 
 ### 换行 (Line Breaks)
 要强制换行，请在句末键入两个空格并按下回车键（Newline）。
@@ -75,24 +75,24 @@
 只需使用尖括号包裹邮箱地址，它就会变成可点击的链接: <never88gone@gmail.com>  
 `<never88gone@gmail.com>`  
 
-网站 URL 的方法相同: <https://github.com/never88gone>  
-` <https://github.com/never88gone>`  
+网站 URL 的方法相同: <https://github.com/never88gone/thlmarkdown>  
+` <https://github.com/never88gone/thlmarkdown>`  
 
-也许您希望将特定文字作为链接: [糖葫芦MarkDown 主页](https://github.com/never88gone "这是一个标题")  
-`[糖葫芦MarkDown 主页](https://github.com/never88gone "这是一个标题")` (标题文字是可选的)  
+也许您希望将特定文字作为链接: [糖葫芦MarkDown 主页](https://github.com/never88gone/thlmarkdown "这是一个标题")  
+`[糖葫芦MarkDown 主页](https://github.com/never88gone/thlmarkdown "这是一个标题")` (标题文字是可选的)  
 
 
 #### 引用标记
 有时候将又长又乱的网址直接放在正文里显得太杂乱了，或者您只是想把所有的网址链接统一放在一起管理。
 
 您可以像这样创建一个带有引用 ID 的链接 [我是一个链接][arbitrary_id]，即 `[我是一个链接][arbitrary_id]`，然后在文档任意其他地方单独起一行写下：  
-`[arbitrary_id]: https://github.com/never88gone "这是一个标题"`
+`[arbitrary_id]: https://github.com/never88gone/thlmarkdown "这是一个标题"`
   
 如果链接的文字本身就很适合做为您设定的 ID，您也可以这样标记 [比如我][]，即 `[比如我][]`，然后在文档其他地方另起一行写下：  
-`[比如我]: https://github.com/never88gone`  
+`[比如我]: https://github.com/never88gone/thlmarkdown`  
 
-[arbitrary_id]: https://github.com/never88gone "这是一个标题"
-[比如我]: https://github.com/never88gone  
+[arbitrary_id]: https://github.com/never88gone/thlmarkdown "这是一个标题"
+[比如我]: https://github.com/never88gone/thlmarkdown  
 
 
 ### 图片 (Images)
@@ -112,8 +112,8 @@
 	* 缩进一个层级以创建一个嵌套列表
 		1. 我也支持有序列表。
 		2. 每一项以 (数字+小数点+空格) 开始，像 `1. `
-		42. 当然，您实际上写了什么数字并不重要，我会自动按照顺序为您渲染它们
-		1. 所以您大可全部以 `1.` 偷懒开头，把排序查数的活儿全交给我吧
+		42. 实际书写的数字并不重要，系统会自动按顺序渲染
+		1. 因此您可以全部使用 `1.` 开头，编辑器会自动处理排序
 
 具体的代码展示：
 
@@ -124,8 +124,8 @@
 	* 缩进一个层级以创建一个嵌套列表
 		1. 我也支持有序列表。
 		2. 每一项以 (数字+小数点+空格) 开始，像 `1. `
-		42. 当然，您实际上写了什么数字并不重要，我会自动按照顺序为您渲染它们
-		1. 所以您大可全部以 `1.` 偷懒开头，把排序查数的活儿全交给我吧
+		42. 实际书写的数字并不重要，系统会自动按顺序渲染
+		1. 因此您可以全部使用 `1.` 开头，编辑器会自动处理排序
 ```
 
 
@@ -190,7 +190,7 @@
 ![Markdown preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/markdown_preferences.png)
 
 ### 文档格式化 (Document Formatting)
-***Smartypants*** 扩展可以根据当前的语境，自动将文本当中的直引号（`"` 和 `'`）转化为标准的印刷界弯引号（`“`，`”`，`‘` 和 `’`）。如果您和我一样有着近乎挑剔的排版强迫症，这就非常好用了。提示：`Quote` 语法和 `Smartypants` 互相排斥。如果它们俩同时生效，`Quote` 优先级会更高。
+***Smartypants*** 扩展可以根据当前的语境，自动将文本当中的直引号（`"` 和 `'`）转化为标准的印刷界弯引号（`“`，`”`，`‘` 和 `’`）。这对于提升排版质量非常有帮助。提示：`Quote` 语法和 `Smartypants` 互相排斥，若同时开启，`Quote` 的优先级更高。
 
 
 ### 块级格式化 (Block Formatting)
@@ -233,7 +233,7 @@ print('Hello world!')
 
 ![Syntax highlighting example](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/syntax_highlighting.png)
 
-除此之外，我其实开箱即用地支持海量的流行语言以及一些可以通用泛用的描述性语法类别。如果您感兴趣，可以访问 [官网的这一章节](https://github.com/never88gone) 查看全部受支持语法列表。
+除此之外，编辑器内置支持海量的流行语言高亮。如果您感兴趣，可以访问 [官网的这一章节](https://github.com/never88gone/thlmarkdown/features/) 查看全部受支持语法列表。
 
 
 ### 行内格式化 (Inline Formatting)
@@ -264,10 +264,10 @@ print('Hello world!')
 您可以为通过我导出的 HTML 文件直接指定多套不同风格的 CSS 素材文件，甚至支持高度化定制或者将原本独有的个人样式文件加入进来。
 
 ### 语法高亮体系 (Syntax Highlighting)
-我猜您已经见识过我在处理围栏代码块方面有过多强大了吧。其实对于不同场景的语法高亮，我在内部准备了各异的主题配色供君选用。
+编辑器内置了多种不同风格的语法高亮主题，适用于各种代码展示场景。
 
 ### 类似 TeX 的数学公式 (TeX-like Math Syntax)
-如果您不介意，我非常乐意渲染类似 TeX 这种理工科的数学公式解析操作。[^math]  
+编辑器支持解析和渲染类似 TeX 的数学公式。[^math]  
 例如渲染这种行内公式： \\( 1 + 1 \\) ，或者这个（用 MathML 编写）： <math><mn>1</mn><mo>+</mo><mn>1</mn></math>，以及块级数学公式：
 
 \\[
@@ -292,7 +292,7 @@ print('Hello world!')
 
 
 ### Jekyll front-matter 元素
-如果能够帮助到您工作的话，利用漂亮的表格为您描画 Jekyll 标头属性 (front-matter) 当仁不让。您只需要时刻确保将它们放在全文的最开头，并且使用 `---` 划定其边界即可。例如：
+支持将 Jekyll 标头属性 (front-matter) 渲染为清晰的表格。请确保将其放置在文档的最开头，并使用 `---` 划定边界：
 
 ```
 ---
@@ -302,48 +302,44 @@ date: 2014-06-06 20:00:00
 ```
 
 ### 硬回车渲染新行 (Render newline literally)
-通常我强烈建议您养成良好的文学习惯，必须使用两个连续的空格以及按下回车符才能创建一个真正的文字换行。一旦开启此功能，无论任何时候只要您按下回车我便立刻为您换行。请知悉，这样不仅会导致输出的结果变得比较失控不规整，也无法兼容当您利用*别的* Markdown 阅读器继续查看文档时的体验。
+标准语法建议使用两个空格加回车来换行。若开启此选项，直接按下回车即可换行。请注意，开启此功能可能导致文档在其他严格遵循标准的 Markdown 阅读器中排版不一致。
 
 
 ## <a name="general-pane"></a>常规设置面板 (General)
 
-这里的各类设置决定着我的应用程序整体日常行为。  
+在此处配置应用程序的整体运行行为。  
 ![General preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/general_preferences.png)
 
-您可以通过选项教导我该具备怎样的习惯。例如，是否要求在启动的那刻保证存在一份新建打开的空白文档？您也需要决定，在您忘情输入文字的那刻，是希望实时且持续顺滑地同时更新右侧排版，还是干脆由您亲自主导进度通过按快捷键 `Command-R` 再行刷新呢。或许有那么几位强迫症会更偏爱把编辑源文件框放在屏幕偏右的部分。又或者每打出一段字都需要看到实时字数统计浮现……总而言之，这里还可以让我们决定是跟随更平顺安稳的官方正式版本、还是紧紧拥抱测试阶段那些激动人心的预发新特征体验！
+您可以设置是否在启动时创建新文档，选择实时更新预览或手动刷新 (`Command-R`)。还可以调整编辑器与预览框的左右位置，以及是否在底部显示字数统计等功能。
 
 ## <a name="editor-pane"></a>编辑偏好配置面板 (Editor)
-这是设定当前编辑主视窗风格及习惯的重要关卡。  
+在此可以配置编辑器窗口的字体、主题和排版风格。  
 ![Editor preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/editor_preferences.png)
 
 
 ### 外观展现 (Styling)
 
-基于当前默认提供的自动语法高亮，您还能完全自由定义基础字号的大小或者配色体系（得特别感谢提供精美预设主题的 [Mou](http://mouapp.com) 软件的创造者 - 罗晨）。
+您可以自由定义编辑器的字体大小和高亮配色体系，内置了多种精心设计的主题供您选择。
 
-您觉得预设还是太土？没关系，直接点击 ***Reveal*** 打开源文件库然后像艺术生一样涂涂抹抹吧。切记只能并且必须让它们的后缀一直处在正确的文件拓展名（`.styles`）之下。在这件事上我异常看重！
+如果需要自定义主题，可以点击 ***Reveal*** 打开主题文件夹并自行修改。请确保自定义主题的文件扩展名为 `.styles`。
 
-另外别忘啦，自动全拼提示、关联语法缩写等等诸多极大优化编辑手感的选项，在此也静候差遣，按您的脾性完全可以尽数关毕。
+此外，您还可以设置自动补全、自动缩进等选项，以优化您的编辑体验。
 
 
 ## 探索与客制化进阶
 
-另外向极客们透露一个好玩的方法：想要直观地查看最终那些输出被排版成了哪一种 HTML 代码吗？现在您只需通过在系统的终端工具中输入下面这行命令行指令即可启动 macOS 全局针对我的 “WebKit 原生开发者元素工具面板”。
+对于高级用户，如果需要调试预览页面的 HTML 和 CSS，可以通过终端输入以下命令来开启内置的 WebKit 开发者工具：
 
 ```
-defaults write com.uranusjr.thlmarkdown WebKitDeveloperExtras -bool true
+defaults write com.never88gone.thlmarkdown WebKitDeveloperExtras -bool true
 ```
 
 大功告成后，现在在渲染区域尝试通过点击鼠标右键点击“检查元素 (Inspect Element)”——您将看到 Safari 浏览器那个令人着迷的全套工具面板。
 
 
-## 隐私政策
-
-本应用非常重视您的隐私保护。有关我们的数据处理方式以及我们对“无服务器通信”及“不收集个人信息”的承诺，请参阅我们的详细[隐私政策](PrivacyPolicy_zh.md)。
-
 ## 享受创造之旅！
 
-我要说的这就是全部了。听我絮絮叨叨这么多也实属不易，接下来我一定会安安静静、踏踏实实地在背后完成排版工作。（除非我有了极大的应用升级包要更新提醒您）。
+以上就是 糖葫芦MarkDown 的主要功能介绍。您可以开始探索并建立属于自己的工作流。
 
 祝写作愉快！
 

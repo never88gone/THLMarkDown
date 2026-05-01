@@ -2,30 +2,30 @@
 
 ![THLMarkDown logo](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/icon_256x256.png)
 
-Hello there! I’m **糖葫芦MarkDown**, the open source Markdown editor for macOS.
+Welcome to **糖葫芦MarkDown**, a professional Markdown editor designed for macOS.
 
-Let me introduce myself.
+This documentation will help you understand its features and basics.
 
 
 
-## Markdown and I
+## About Markdown
 
 **Markdown** is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. The original Markdown syntax specification can be found [here](https://daringfireball.net/projects/markdown/syntax).
 
-**糖葫芦MarkDown** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
+**糖葫芦MarkDown** provides an intuitive Markdown editing experience. It renders your Markdown contents in real-time into HTML and displays them in a preview panel.
 
 ![THLMarkDown Screenshot](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/screenshot.png)
 
-I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
+In addition to standard Markdown, the application supports numerous popular extensions. These can be enabled or disabled in the [**Markdown** preference pane](#markdown-pane).
 
-You can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
+You can customize HTML rendering styles in the [**Rendering** preference pane](#rendering-pane).
 
-You can customize the editor window to your liking in the [**Editor** preferences pane](#editor-pane):
+The editor's appearance and behavior can be configured in the [**Editor** preferences pane](#editor-pane).
 
-You can configure various application (that's me!) behaviors in the [**General** preference pane](#general-pane).
+General application behavior can be configured in the [**General** preference pane](#general-pane).
 
 ## The Basics
-Before I tell you about all the extra syntaxes and capabilities I have, I'll introduce you to the basics of standard markdown. If you already know markdown, and want to jump straight to learning about the fancier things I can do, I suggest you skip to the [**Markdown** preference pane](#markdown-pane). Lets jump right in.  
+Before diving into advanced features, this section introduces standard Markdown basics. If you are already familiar with Markdown, you can skip directly to the [**Markdown** preference pane](#markdown-pane).  
 
 ### Line Breaks
 To force a line break, put two spaces and a newline (return) at the end of the line.
@@ -75,24 +75,24 @@ or
 Just put angle brackets around an email and it becomes clickable: <never88gone@gmail.com>  
 `<never88gone@gmail.com>`  
 
-Same thing with urls: <https://github.com/never88gone>  
-` <https://github.com/never88gone>`  
+Same thing with urls: <https://github.com/never88gone/thlmarkdown>  
+` <https://github.com/never88gone/thlmarkdown>`  
 
-Perhaps you want to link some text like this: [糖葫芦MarkDown Website](https://github.com/never88gone "Title")  
-`[糖葫芦MarkDown Website](https://github.com/never88gone "Title")` (The title is optional)  
+Perhaps you want to link some text like this: [糖葫芦MarkDown Website](https://github.com/never88gone/thlmarkdown "Title")  
+`[糖葫芦MarkDown Website](https://github.com/never88gone/thlmarkdown "Title")` (The title is optional)  
 
 
 #### Reference style
 Sometimes it looks too messy to include big long urls inline, or you want to keep all your urls together.  
 
 Make [a link][arbitrary_id] `[a link][arbitrary_id]` then on it's own line anywhere else in the file:  
-`[arbitrary_id]: https://github.com/never88gone "Title"`
+`[arbitrary_id]: https://github.com/never88gone/thlmarkdown "Title"`
   
 If the link text itself would make a good id, you can link [like this][] `[like this][]`, then on it's own line anywhere else in the file:  
-`[like this]: https://github.com/never88gone`  
+`[like this]: https://github.com/never88gone/thlmarkdown`  
 
-[arbitrary_id]: https://github.com/never88gone "Title"
-[like this]: https://github.com/never88gone  
+[arbitrary_id]: https://github.com/never88gone/thlmarkdown "Title"
+[like this]: https://github.com/never88gone/thlmarkdown  
 
 
 ### Images
@@ -235,7 +235,7 @@ You can add an optional language ID at the end of the first line. The language I
 
 ![Syntax highlighting example](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/syntax_highlighting.png)
 
-I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](https://github.com/never88gone) for a full list of supported syntaxes.
+I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](https://github.com/never88gone/thlmarkdown/features/) for a full list of supported syntaxes.
 
 
 ### Inline Formatting
@@ -320,16 +320,12 @@ This is where I keep preferences related to the behavior and styling of the edit
 
 ### Styling
 
-My editor provides syntax highlighting. You can edit the base font and the coloring/sizing theme. I provided some default themes (courtesy of [Mou](http://mouapp.com)’s creator, Chen Luo) if you don’t know where to start.
+You can customize the editor's base font, sizing, and color themes. Several built-in themes are provided.
 
-You can also edit, or even add new themes if you want to! Just click the ***Reveal*** button, and start moving things around. Remember to use the correct file extension (`.styles`), though. I’m picky about that.
+To customize themes, click the ***Reveal*** button to open the theme folder. Please ensure custom themes use the `.styles` extension.
 
-I offer auto-completion and other functions to ease your editing experience. If you don’t like it, however, you can turn them off.
+Additionally, you can toggle smart features like auto-completion to optimize your workflow.
 
-
-## Privacy Policy
-
-We take your privacy seriously. For details regarding our data handling practices and our commitment to "no server communication" and "no collection of personal information," please read our comprehensive [Privacy Policy](PrivacyPolicy.md).
 
 ## Hack On
 
