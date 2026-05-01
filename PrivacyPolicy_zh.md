@@ -23,4 +23,6 @@
 
 ## 联系我们
 
-如果您对我们的隐私政策有任何疑问或建议，欢迎随时通过 GitHub 仓库向我们反馈。
+如果您对我们的隐私政策有任何疑问或建议，欢迎随时联系我们：
+- **邮箱**：never88gone@gmail.com
+- **GitHub**：[https://github.com/never88gone](https://github.com/never88gone)

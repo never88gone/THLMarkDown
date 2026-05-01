@@ -75,24 +75,24 @@ or
 Just put angle brackets around an email and it becomes clickable: <never88gone@gmail.com>  
 `<never88gone@gmail.com>`  
 
-Same thing with urls: <https://thlmarkdown.uranusjr.com>  
-` <https://thlmarkdown.uranusjr.com>`  
+Same thing with urls: <https://github.com/never88gone>  
+` <https://github.com/never88gone>`  
 
-Perhaps you want to link some text like this: [糖葫芦MarkDown Website](https://thlmarkdown.uranusjr.com "Title")  
-`[糖葫芦MarkDown Website](https://thlmarkdown.uranusjr.com "Title")` (The title is optional)  
+Perhaps you want to link some text like this: [糖葫芦MarkDown Website](https://github.com/never88gone "Title")  
+`[糖葫芦MarkDown Website](https://github.com/never88gone "Title")` (The title is optional)  
 
 
 #### Reference style
 Sometimes it looks too messy to include big long urls inline, or you want to keep all your urls together.  
 
 Make [a link][arbitrary_id] `[a link][arbitrary_id]` then on it's own line anywhere else in the file:  
-`[arbitrary_id]: https://thlmarkdown.uranusjr.com "Title"`
+`[arbitrary_id]: https://github.com/never88gone "Title"`
   
 If the link text itself would make a good id, you can link [like this][] `[like this][]`, then on it's own line anywhere else in the file:  
-`[like this]: https://thlmarkdown.uranusjr.com`  
+`[like this]: https://github.com/never88gone`  
 
-[arbitrary_id]: https://thlmarkdown.uranusjr.com "Title"
-[like this]: https://thlmarkdown.uranusjr.com  
+[arbitrary_id]: https://github.com/never88gone "Title"
+[like this]: https://github.com/never88gone  
 
 
 ### Images

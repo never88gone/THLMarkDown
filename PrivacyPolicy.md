@@ -23,4 +23,6 @@ Since the App runs entirely locally and does not collect any user data, we do no
 
 ## Contact Us
 
-If you have any questions or suggestions regarding our Privacy Policy, please feel free to contact us by submitting an issue in our GitHub repository.
+If you have any questions or suggestions regarding our Privacy Policy, please feel free to contact us:
+- **Email**: never88gone@gmail.com
+- **GitHub**: [https://github.com/never88gone](https://github.com/never88gone)
