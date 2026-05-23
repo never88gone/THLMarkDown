@@ -14,7 +14,11 @@
 
 **糖葫芦MarkDown** 提供直观的 Markdown 编辑体验。它能在您编辑时实时将 Markdown 内容渲染为 HTML，并在右侧预览窗格中即时呈现。
 
-![THLMarkDown Screenshot](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/screenshot.png)
+在未打开任何文件时，界面呈现极简的空白状态：
+![THLMarkDown 首页空白](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E9%A6%96%E9%A1%B5-%E7%A9%BA%E7%99%BD.png)
+
+当您开始编写时，左侧为支持语法高亮的编辑器，右侧为实时预览：
+![THLMarkDown 首页内容](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E9%A6%96%E9%A1%B5-%E5%86%85%E5%AE%B9.png)
 
 除了完全支持标准 Markdown 语法外，应用还提供了丰富的扩展功能。在 [**Markdown** 偏好设置面板](#markdown-pane) 中，您可以轻松开启或关闭各种高级语法扩展。
 
@@ -23,6 +27,12 @@
 在 [**编辑器 (Editor)** 偏好设置面板](#editor-pane) 中，您可以根据个人习惯对编辑界面进行个性化配置。
 
 关于应用程序的全局行为，可以在 [**通用 (General)** 偏好设置面板](#general-pane) 中进行设定。
+
+在 [**快捷键 (Shortcuts)** 偏好设置面板](#shortcuts-pane) 中，您可以自定义各种常用操作的快捷键。
+
+在 [**第三方组件 (Third-Party)** 偏好设置面板](#third-party-pane) 中，您可以查看应用所使用的开源组件及其许可协议。
+
+在 [**隐私政策 (Privacy)** 偏好设置面板](#privacy-pane) 中，您可以查阅我们的隐私政策，并配置相关的网络访问选项。
 
 ## 基础语法
 在深入了解高级扩展之前，本节将为您介绍 Markdown 的必备基础。如果您熟悉 Markdown 语法，可以跳过此章节，直接查看 [**Markdown** 偏好设置面板](#markdown-pane)。  
@@ -187,7 +197,7 @@
 
 ## <a name="markdown-pane"></a>Markdown 偏好设置面板
 我在这个选项卡里记录了把 Markdown 解析成 HTML 的所有相关配置。  
-![Markdown preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/markdown_preferences.png)
+![Markdown 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-MarkDown.png)
 
 ### 文档格式化 (Document Formatting)
 ***Smartypants*** 扩展可以根据当前的语境，自动将文本当中的直引号（`"` 和 `'`）转化为标准的印刷界弯引号（`“`，`”`，`‘` 和 `’`）。这对于提升排版质量非常有帮助。提示：`Quote` 语法和 `Smartypants` 互相排斥，若同时开启，`Quote` 的优先级更高。
@@ -229,9 +239,7 @@ print('Hello world!')
 ~~~
 
 
-您可以在第一行的末尾附加一个语言 ID。如果您勾选了 ***启用代码块内语法高亮 (Enable highlighting in code blocks)*** 选项，该语言 ID 将专项指引并渲染代码块内的高亮样式。启用后是这个样子的：
-
-![Syntax highlighting example](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/syntax_highlighting.png)
+您可以在第一行的末尾附加一个语言 ID。如果您勾选了 ***启用代码块内语法高亮 (Enable highlighting in code blocks)*** 选项，该语言 ID 将专项指引并渲染代码块内的高亮样式。
 
 除此之外，编辑器内置支持海量的流行语言高亮。如果您感兴趣，可以访问 [官网的这一章节](https://github.com/never88gone/thlmarkdown/features/) 查看全部受支持语法列表。
 
@@ -258,7 +266,7 @@ print('Hello world!')
 
 ## <a name="rendering-pane"></a>渲染体验面板 (Rendering)
 渲染面板记录了我应该如何解析内容并为您描绘预览窗口所有的样式。  
-![Rendering preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/rendering_preferences.png)
+![Rendering 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E6%B8%B2%E6%9F%93.png)
 
 ### 样式表 (CSS)
 您可以为通过我导出的 HTML 文件直接指定多套不同风格的 CSS 素材文件，甚至支持高度化定制或者将原本独有的个人样式文件加入进来。
@@ -308,13 +316,13 @@ date: 2014-06-06 20:00:00
 ## <a name="general-pane"></a>常规设置面板 (General)
 
 在此处配置应用程序的整体运行行为。  
-![General preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/general_preferences.png)
+![General 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E9%80%9A%E7%94%A8.png)
 
 您可以设置是否在启动时创建新文档，选择实时更新预览或手动刷新 (`Command-R`)。还可以调整编辑器与预览框的左右位置，以及是否在底部显示字数统计等功能。
 
 ## <a name="editor-pane"></a>编辑偏好配置面板 (Editor)
 在此可以配置编辑器窗口的字体、主题和排版风格。  
-![Editor preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/editor_preferences.png)
+![Editor 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E7%BC%96%E8%BE%91%E5%99%A8.png)
 
 
 ### 外观展现 (Styling)
@@ -324,6 +332,26 @@ date: 2014-06-06 20:00:00
 如果需要自定义主题，可以点击 ***Reveal*** 打开主题文件夹并自行修改。请确保自定义主题的文件扩展名为 `.styles`。
 
 此外，您还可以设置自动补全、自动缩进等选项，以优化您的编辑体验。
+
+
+## <a name="shortcuts-pane"></a>快捷键设置面板 (Shortcuts)
+
+在此可以自定义和管理各种常用操作的键盘快捷键，以完美契合您的输入习惯。  
+![Shortcuts 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E5%BF%AB%E6%8D%B7%E9%94%AE.png)
+
+您可以直接录制或修改特定功能的快捷组合键，提高输入效率。
+
+## <a name="third-party-pane"></a>第三方组件面板 (Third-party)
+
+糖葫芦MarkDown 的开发离不开众多优秀开源社区的支持。在此可以查看我们引用的所有第三方库及其对应许可证。  
+![Third-party 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%B8%89%E6%96%B9%E7%BB%84%E4%BB%B6.png)
+
+## <a name="privacy-pane"></a>隐私政策面板 (Privacy)
+
+我们高度重视您的隐私。在这个面板，您可以查阅完整的隐私政策声明。  
+![Privacy 偏好设置](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.png)
+
+为了给您提供数学公式解析（KateX/MathJax等依赖CDN）以及自动更新检查功能，应用可能需要网络连接。在此面板中，您可以清晰了解我们如何保障您的数据安全和隐私，并根据偏好设定相关网络选项。
 
 
 ## 探索与客制化进阶
@@ -351,3 +379,4 @@ defaults write com.never88gone.thlmarkdown WebKitDeveloperExtras -bool true
 [^quote]: **引用 (Quote)** 语序可以将直文字字符的 `"` 双边引用符号智能转化为 html 代码下的 `<q>` 标签。由于 **引用标记 (Quote)** 以及 **(Smartypants)** 从词法上严重不相容。当您强制它们被双双激活下, 最终起死回生生效的主体只会保留 **Quote** 标记。务必当心的是，此处的 **Quote** 与标准 Markdown 概念中所涵盖的 *blockquote (长引用块)* 的功能天差地别。
 
 [^math]: 这个操作仅供拥有实时强力的外部稳定网络连接下才能保证正常运转。
+[README_zh.md](README_zh.md)

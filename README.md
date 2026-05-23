@@ -14,7 +14,11 @@ This documentation will help you understand its features and basics.
 
 **糖葫芦MarkDown** provides an intuitive Markdown editing experience. It renders your Markdown contents in real-time into HTML and displays them in a preview panel.
 
-![THLMarkDown Screenshot](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/screenshot.png)
+When no document is open, the interface stays in a minimalist blank state:
+![THLMarkDown Blank page](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E9%A6%96%E9%A1%B5-%E7%A9%BA%E7%99%BD.png)
+
+Once you start writing, the editor on the left highlights markdown syntax, and the preview panel on the right displays the rendered HTML instantly:
+![THLMarkDown Content page](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E9%A6%96%E9%A1%B5-%E5%86%85%E5%AE%B9.png)
 
 In addition to standard Markdown, the application supports numerous popular extensions. These can be enabled or disabled in the [**Markdown** preference pane](#markdown-pane).
 
@@ -23,6 +27,12 @@ You can customize HTML rendering styles in the [**Rendering** preference pane](#
 The editor's appearance and behavior can be configured in the [**Editor** preferences pane](#editor-pane).
 
 General application behavior can be configured in the [**General** preference pane](#general-pane).
+
+Custom shortcut bindings can be configured in the [**Shortcuts** preference pane](#shortcuts-pane).
+
+Open-source third-party dependencies can be viewed in the [**Third-Party** preference pane](#third-party-pane).
+
+Privacy policy and network preferences can be reviewed in the [**Privacy** preference pane](#privacy-pane).
 
 ## The Basics
 Before diving into advanced features, this section introduces standard Markdown basics. If you are already familiar with Markdown, you can skip directly to the [**Markdown** preference pane](#markdown-pane).  
@@ -189,7 +199,7 @@ If you type three asterisks `***` or three dashes `---` on a line, I'll display 
 
 ## <a name="markdown-pane"></a>The Markdown Preference Pane
 This is where I keep all preferences related to how I parse markdown into html.  
-![Markdown preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/markdown_preferences.png)
+![Markdown preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-MarkDown.png)
 
 ### Document Formatting
 The ***Smartypants*** extension automatically transforms straight quotes (`"` and `'`) in your text into typographer’s quotes (`“`, `”`, `‘`, and `’`) according to the context. Very useful if you’re a typography freak like I am. Quote and Smartypants are syntactically incompatible. If both are enabled, Quote takes precedence.
@@ -231,9 +241,7 @@ print('Hello world!')
 ~~~
 
 
-You can add an optional language ID at the end of the first line. The language ID will only be used to highlight the code inside if you tick the ***Enable highlighting in code blocks*** option. This is what happens if you enable it:
-
-![Syntax highlighting example](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/syntax_highlighting.png)
+You can add an optional language ID at the end of the first line. The language ID will only be used to highlight the code inside if you tick the ***Enable highlighting in code blocks*** option.
 
 I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](https://github.com/never88gone/thlmarkdown/features/) for a full list of supported syntaxes.
 
@@ -260,7 +268,7 @@ Footnotes           | [\^4] and [\^4]: | [^4] and footnote 4   |
 
 ## <a name="rendering-pane"></a>The Rendering Preference Pane
 This is where I keep preferences relating to how I render and style the parsed markdown in the preview window.  
-![Rendering preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/rendering_preferences.png)
+![Rendering preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E6%B8%B2%E6%9F%93.png)
 
 ### CSS
 You can choose different css files for me to use to render your html. You can even customize or add your own custom css files.
@@ -309,13 +317,13 @@ Normally I require you to put two spaces and a newline (aka return) at the end o
 ## <a name="general-pane"></a>The General Preferences Pane
 
 This is where I keep preferences related to application behavior.  
-![General preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/general_preferences.png)
+![General preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E9%80%9A%E7%94%A8.png)
 
 The General Preferences Pane allows you to tell me how you want me to behave. For example, do you want me to make sure there is a document open when I launch? You can also tell me if I should constantly update the preview window as you type, or wait for you to hit `command-R` instead. Maybe you prefer your editor window on the right? Or to see the word-count as you type. This is also the place to tell me if you are interested in pre-releases of me, or just want to stick to better-tested official releases.  
 
 ## <a name="editor-pane"></a>The Editor Preference Pane
 This is where I keep preferences related to the behavior and styling of the editing window.  
-![Editor preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/editor_preferences.png)
+![Editor preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E7%BC%96%E8%BE%91%E5%99%A8.png)
 
 
 ### Styling
@@ -325,6 +333,26 @@ You can customize the editor's base font, sizing, and color themes. Several buil
 To customize themes, click the ***Reveal*** button to open the theme folder. Please ensure custom themes use the `.styles` extension.
 
 Additionally, you can toggle smart features like auto-completion to optimize your workflow.
+
+
+## <a name="shortcuts-pane"></a>The Shortcuts Preference Pane
+
+Configure and customize keyboard shortcuts for various operations to fit your typing habits.  
+![Shortcuts preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E5%BF%AB%E6%8D%B7%E9%94%AE.png)
+
+You can record or update specific combinations to boost your writing efficiency.
+
+## <a name="third-party-pane"></a>The Third-party Preference Pane
+
+糖葫芦MarkDown is built with the help of excellent open-source communities. You can review the list of third-party libraries and their licenses here.  
+![Third-party preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E7%AC%AC%E4%B8%89%E6%96%B9%E7%BB%84%E4%BB%B6.png)
+
+## <a name="privacy-pane"></a>The Privacy Preference Pane
+
+We highly value your privacy. In this pane, you can read our full privacy policy statement.  
+![Privacy preferences pane](https://raw.githubusercontent.com/never88gone/THLMarkDown/main/images/%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE-%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.png)
+
+Network connections may be used to fetch resources for TeX-like math rendering (CDN-dependent libraries) and auto-update checks. Here, you can learn how we protect your data and configure related options.
 
 
 ## Hack On
