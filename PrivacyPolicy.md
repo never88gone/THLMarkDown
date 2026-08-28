@@ -24,5 +24,8 @@ Since the App runs entirely locally and does not collect any user data, we do no
 ## Contact Us
 
 If you have any questions or suggestions regarding our Privacy Policy, please feel free to contact us:
-- **Email**: never88gone@gmail.com
+- **Website**: [https://www.thltv.com/](https://www.thltv.com/)
+- **Email**: support@thltv.com
+- **Telegram Channel**: [https://t.me/tanghulutvos](https://t.me/tanghulutvos)
 - **GitHub**: [https://github.com/never88gone](https://github.com/never88gone)
+

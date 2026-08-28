@@ -24,5 +24,8 @@
 ## 联系我们
 
 如果您对我们的隐私政策有任何疑问或建议，欢迎随时联系我们：
-- **邮箱**：never88gone@gmail.com
+- **官网**：[https://www.thltv.com/](https://www.thltv.com/)
+- **邮箱**：support@thltv.com
+- **Telegram 频道**：[https://t.me/tanghulutvos](https://t.me/tanghulutvos)
 - **GitHub**：[https://github.com/never88gone](https://github.com/never88gone)
+
