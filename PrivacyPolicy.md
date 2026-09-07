@@ -1,31 +1,48 @@
-# Privacy Policy
+# TanghuluNote Privacy Policy
 
-This Privacy Policy applies to **糖葫芦MarkDown** (hereinafter referred to as "the App"). We highly value your privacy and are committed to keeping your personal information safe.
+**Last Updated: August 24, 2026**
 
-## Data Collection and Use
+Thank you for choosing **TanghuluNote** ("the App"). We deeply understand the importance of your personal data and privacy. Therefore, the App was designed from the ground up with the core principle of being "Privacy-First and Local-Only."
 
-The App is a fully localized Markdown editor. We solemnly declare:
-- **No Server Communication**: The App does not use any servers. All document editing, data processing, and storage are performed locally on your device.
-- **No Personal Information Collected**: The App does not collect, store, process, or transmit any of your personal information, document contents, or usage habits.
-- **No Network Connection Required**: Except for certain specific features within the app (such as loading external image links or loading network resources like MathJax for rendering math formulas), the core functions do not require any network connection and will never send any data externally.
+This Privacy Policy aims to clearly explain how the App handles data. **In short: We do NOT collect, store, or upload any of your personal information or document data.**
 
-## Third-Party Services
+---
 
-The App may use some open-source components or third-party libraries. These features might load related resources only when necessary to ensure proper rendering, but they will not transmit any of your personal data or usage habits to any third parties.
+## 1. Our Core Commitment
 
-## User Control
+- **Local-Only Operation**: TanghuluNote is a completely offline desktop application.
+- **Zero Data Collection**: We do not operate cloud servers for this app. We do not collect any information regarding your usage habits, clicks, or personal identity.
+- **No Third-Party Trackers**: The App is entirely free of third-party advertising SDKs, user profiling trackers, or analytics tools.
 
-Since all files and data are stored on your personal device, you have complete control over your data. You can entirely remove all related data by deleting local files or uninstalling the App.
+## 2. Data and File System Access
 
-## Changes to the Privacy Policy
+The App requires operating system permissions to access your file system to function properly, but we adhere strictly to the "Principle of Least Privilege":
+- **User-Initiated Action Only**: The App accesses your local file system ONLY when you actively invoke features such as "Open File", "Save", "Export", or "Paste Image".
+- **Zero Background Scanning**: We will never secretly scan, index, or read any files or folders on your hard drive that you have not explicitly authorized the App to access.
+- **100% Data Ownership**: All Markdown documents, cached files, and associated images (Assets) you create are stored exclusively in local directories chosen by you.
 
-Since the App runs entirely locally and does not collect any user data, we do not expect significant changes to this Privacy Policy. If any changes are made in the future due to feature upgrades, we will update this page.
+## 3. Network Usage
 
-## Contact Us
+TanghuluNote works perfectly offline in almost all scenarios. However, minimal network requests may occur in the following specific situations:
+- **External Rendering Dependencies**: When your document contains complex `Mermaid` diagrams, the built-in preview engine (WebView) may attempt to load essential rendering scripts (like `Mermaid.js`) from secure public CDN nodes.
+- **Image Hosting Upload Services (PicGo)**: If you actively configure and enable third-party image hosting services (e.g., PicGo) in the App's settings, the App will upload images to your designated servers when you drag or paste them. This process is entirely controlled by your personal configuration.
 
-If you have any questions or suggestions regarding our Privacy Policy, please feel free to contact us:
+None of the network requests mentioned above involve transmitting any of your private data, notes, or app usage telemetry to us.
+
+## 4. No Account Required
+
+The App provides a complete, out-of-the-box experience. You do not need to register an account, nor provide an email address or phone number to use any of its features.
+
+## 5. Changes to This Policy
+
+As we continue to enrich the App's features, we may update this Privacy Policy from time to time. Any policy updates will be released alongside app version updates and will be noted in the release notes. Your continued use of the App constitutes your understanding and acceptance of the most recent version of the Privacy Policy.
+
+## 6. Contact Us
+
+If you have any questions, comments, or suggestions regarding this Privacy Policy, please feel free to contact us at:
 - **Website**: [https://www.thltv.com/](https://www.thltv.com/)
 - **Email**: support@thltv.com
 - **Telegram Channel**: [https://t.me/tanghulutvos](https://t.me/tanghulutvos)
-- **GitHub**: [https://github.com/never88gone](https://github.com/never88gone)
+- **GitHub**: [https://github.com/never88gone/THLMarkDown](https://github.com/never88gone/THLMarkDown)
+
 
